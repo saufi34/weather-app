@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-image: url("bg.jpg");
+}
+
+/* --------------------background */
+.container-fluid{
+ width: 410px;
+ margin: 50px auto;
+ padding: 10px;
+ height: 100vh;
+}
+
+.inputs {
+  background-color: rgba(103, 103, 103, 0.471);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cityinput{
+  margin: 20px;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.5);
+  outline: none;
+  border-radius: 10px 0px 10px 0px;
+  padding: 10px;
+  width:max-content;
+  font-size: 25px;
+}
+
+#cityinput:focus{
+  background-color: rgba(255, 255, 255);
+
+}
+
+button{
+  display: none;
+}
+
+.add{
+  background-color:transparent;
+  border: 2px solid #ffbef0;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width:100px;
+  font-size: 20px;
+  color: #ffbef0;
+  cursor: pointer;
+}
+
+.add:hover{
+  background-color: #ffbef07a;
+  transition: 0.3s;
+  color: #3b2e38;
+
+}
+
+/* .inputs input[type="text"] {
+    height: 3.5rem;
+    width: 20rem;
+    background: #212121;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #c2c2c2;
+    border-radius: 2px;
+    margin-right:4px ;
+
+} */
+/* .inputs input[type="submit"] {
+    height: 3.2rem;
+    width: 6.5rem;
+    background: #0a67ca;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+} */
+
+/* -------------------------------display */
+
+.wrapper{
+  background-color: rgba(0, 0, 0, 0.444);
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper h2{
+  padding: 5px 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+}
+.wrapper p{
+  margin:20px 50px;
+text-align: center;
+color: #ffbef0;
+font-size:23px;
+}
+
+.wrapper h2 span{
+  font-size: 26px;
+  color: #ffffff;
+}
+  .wrapper p span{
+  color: #ff00c3;
+  font-size: 25px;
+}
+
+/* .display {
+    text-align: center;
+    width: 400px;
+    color: #16a864;
+}
+.wrapper {
+    margin: 0 9rem;
+
+    background-color: white;
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+
+ */
